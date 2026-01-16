@@ -1,1 +1,101 @@
+body {
+  background: linear-gradient(270deg, #ccffdc, #ffffff, #c9ebff);
+  background-size: 600% 600%;
+
+  -webkit-animation: bg 18s ease infinite;
+  animation: bg 18s ease infinite;
+}
+@-webkit-keyframes bg {
+  0% {
+    background-position: 15% 0%;
+  }
+  50% {
+    background-position: 86% 100%;
+  }
+  100% {
+    background-position: 15% 0%;
+  }
+}
+@keyframes bg {
+  0% {
+    background-position: 15% 0%;
+  }
+  50% {
+    background-position: 86% 100%;
+  }
+  100% {
+    background-position: 15% 0%;
+  }
+}
+
+h1,
+h3 {
+  font-family: Archivo Black;
+  font-weight: bold;
+  text-align: center;
+}
+
+p,
+a {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+.content {
+  background-color: aliceblue;
+  border: solid 3px lightslategray;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+}
+
+hr {
+  border: 2px solid lightslategray;
+  border-radius: 4px;
+}
+
+img {
+  width: 150px;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* navbar stuff*/
+ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: lightslategray;
+  position: fixed;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.25s;
+}
+
+ul li a:hover {
+  background-color: slategray;
+}
+
+/* font stuff*/
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
